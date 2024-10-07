@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "801448171055",
+    "project_id": "coolprojectbynahid",
+    "storage_bucket": "coolprojectbynahid.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:801448171055:android:b4dd62424a300a3e67d8da",
+        "android_client_info": {
+          "package_name": "com.example.coolapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC52fd_LM2-B2P8LBC1COFmVNSOuIcGoes"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:801448171055:android:139103e6b50a555d67d8da",
+        "android_client_info": {
+          "package_name": "com.example.coolapps"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC52fd_LM2-B2P8LBC1COFmVNSOuIcGoes"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:801448171055:android:1da0fdb643c4e57467d8da",
+        "android_client_info": {
+          "package_name": "com.example.untitled1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC52fd_LM2-B2P8LBC1COFmVNSOuIcGoes"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
