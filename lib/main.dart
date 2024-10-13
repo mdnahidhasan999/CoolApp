@@ -1,18 +1,17 @@
+import 'package:coolapp/firebase_notification.dart';
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 
-
-import 'package:firebase_core/firebase_core.dart';
 import 'firebase_options.dart';
-
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
   );
+  await FirebaseNotification.instance.initialize();
 
   runApp(const MyApp());
-
 }
 
 class MyApp extends StatelessWidget {
@@ -26,6 +25,7 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+
 class MatchListScreen extends StatefulWidget {
   const MatchListScreen({super.key});
 
@@ -44,4 +44,3 @@ class _MatchListScreenState extends State<MatchListScreen> {
     );
   }
 }
-
